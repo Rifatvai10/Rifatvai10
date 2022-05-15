@@ -1,0 +1,36 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(235, 228, 228);
+}
+/* this is a header start */
+.header{
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+}
+.logo{
+    font-size: 50px;
+    font-style: oblique;
+    font-weight: bold;
+}
+.matha ul{
+list-style: none;
+display: flex;
+float: left;
+
+}
+.matha ul li{
+    margin-left: 20px;
+    border: 2px solid rgb(62, 17, 17);
+    height: 40px;
+    background-color: rgb(28, 11, 11);
+    line-height: 40px;
+    width: 120px;
+    text-align: center;
+    font-size: 20px;
+
+
+}
+/* this is a header end */
